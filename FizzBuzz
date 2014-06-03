@@ -1,0 +1,15 @@
+for (var numberz = 1; numberz < 21; numberz++) {
+
+    if (numberz % 3 === 0 && numberz % 5 === 0) {
+        console.log("FizzBuzz");    
+    }
+    else if (numberz % 3 === 0) {
+        console.log("Fizz");
+    }
+    else if (numberz % 5 === 0) {
+        console.log("Buzz");
+    }
+    else {
+        console.log(numberz);   
+    }
+}
